@@ -14,6 +14,9 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color: #FFBEC5;
+     /*does not do anything*/
+     background-color opacity: 0.05;
 }
 
 .jumbotron {
@@ -32,3 +35,53 @@ body {
      position: absolute;
      z-index: -1;	
 }
+/*Lab2 code*/
+
+p {
+     font-variant: small-caps;
+}
+.project{
+     font-variant: small-caps;
+     margin-left: 30px;
+     background-color: #A5E2FF;
+     padding: 25px;
+     width: 525px;
+}
+.projectk{
+     font-variant: small-caps;
+     margin-left: 30px;
+     background-color: #FFD7A6;
+     padding: 25px;
+     width: 525px;
+}
+/*applies styling to all <p> elements nested inside any element with the class "project"*/
+.project p {
+     font-variant: small-caps;
+}
+/*applies styling to all elements with "project1" id*/
+#project1{
+     font-variant: small-caps;
+}
+
+/* tried making bg color only appear under jumbo header
+.bg {
+     background-color: #FFBEC5;
+     width: 500px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
